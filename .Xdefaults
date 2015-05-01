@@ -8,6 +8,7 @@ urxvt.visualBell: off
 urxvt.depth: 32
 
 
+! copy paste 
 urxvt.perl-ext-common: default,clipboard
 urxvt.iso14755: False
 urxvt.keysym.Shift-Control-C: perl:clipboard:copy
@@ -15,29 +16,21 @@ urxvt.keysym.Shift-Control-V: perl:clipboard:paste
 
 ! do not scroll with output
 urxvt*scrollTtyOutput: false
-
 urxvt*scrollWithBuffer: true
 
-!Droid Sans
-!URxvt.font: xft:Droid Sans Mono for Powerline:pixelsize=12:antialias=true:hinting=true
-!URxvt.boldFont: xft:Droid Sans Mono for Powerline:bold:pixelsize=12:antialias=true:hinting=true
-!URxvt.italicFont: xft:Droid Sans Mono for Powerline:italic:pixelsize=12:antialias=true:hinting=true
-!URxvt.boldItalicFont: xft:Droid Sans Mono for Powerline:bold:italic:pixelsize=12:antialias=true
-
+! Fonts
 URxvt*font: xft:Monospace:pixelsize=11
 URxvt*boldFont: xft:Monospace:pixelsize=11
 
+! ScrollBar
 urxvt*scrollBar_right: false
 urxvt*scrollBar: false
 
-
+! Fake Transparent
 !urxvt.transparent: false
 !urxvt.shading: 40
 !urxvt.inheritPixmap: true
 !urxvt.fading: 40
-
-!URxvt.depth: 32
-!URxvt.background: rgba:3000/2300/5100/ee00
 
 
 ! solarized themes

@@ -1,3 +1,5 @@
 *
 !.gitignore
 !.Xdefaults
+#!.oh-my-zsh
+!.zshrc
