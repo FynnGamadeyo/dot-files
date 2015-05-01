@@ -1,6 +1,4 @@
 urxvt.imLocale: de_DE.UTF-8
-!urxvt.foreground: white
-!urxvt.background: black
 urxvt.borderless: true
 urxvt.internalBorder: 0
 urxvt.externalNprder: 0
