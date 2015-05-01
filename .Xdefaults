@@ -1,0 +1,70 @@
+urxvt.imLocale: de_DE.UTF-8
+!urxvt.foreground: white
+!urxvt.background: black
+urxvt.borderless: true
+urxvt.internalBorder: 0
+urxvt.externalNprder: 0
+urxvt.dynamicColors: true
+urxvt.urgentOnBell: off
+urxvt.visualBell: off
+urxvt.depth: 32
+
+
+urxvt.perl-ext-common: default,clipboard
+urxvt.iso14755: False
+urxvt.keysym.Shift-Control-C: perl:clipboard:copy
+urxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+! do not scroll with output
+urxvt*scrollTtyOutput: false
+
+urxvt*scrollWithBuffer: true
+
+!Droid Sans
+!URxvt.font: xft:Droid Sans Mono for Powerline:pixelsize=12:antialias=true:hinting=true
+!URxvt.boldFont: xft:Droid Sans Mono for Powerline:bold:pixelsize=12:antialias=true:hinting=true
+!URxvt.italicFont: xft:Droid Sans Mono for Powerline:italic:pixelsize=12:antialias=true:hinting=true
+!URxvt.boldItalicFont: xft:Droid Sans Mono for Powerline:bold:italic:pixelsize=12:antialias=true
+
+URxvt*font: xft:Monospace:pixelsize=11
+URxvt*boldFont: xft:Monospace:pixelsize=11
+
+urxvt*scrollBar_right: false
+urxvt*scrollBar: false
+
+
+!urxvt.transparent: false
+!urxvt.shading: 40
+!urxvt.inheritPixmap: true
+!urxvt.fading: 40
+
+!URxvt.depth: 32
+!URxvt.background: rgba:3000/2300/5100/ee00
+
+
+! solarized themes
+
+*background:              #002b36
+*foreground:              #839496
+*fading:                  40
+*fadeColor:               #002b36
+*cursorColor:             #93a1a1
+*pointerColorBackground:  #586e75
+*pointerColorForeground:  #93a1a1
+
+*color0:                  #073642
+*color1:                  #dc322f
+*color2:                  #859900
+*color3:                  #b58900
+*color4:                  #268bd2
+*color5:                  #d33682
+*color6:                  #2aa198
+*color7:                  #eee8d5
+*color9:                  #cb4b16
+*color8:                  #002b36
+*color10:                 #586e75
+*color11:                 #657b83
+*color12:                 #839496
+*color13:                 #6c71c4
+*color14:                 #93a1a1
+*color15:                 #fdf6e3
