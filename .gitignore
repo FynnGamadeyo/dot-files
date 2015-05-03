@@ -3,4 +3,7 @@
 !.Xdefaults
 #!.oh-my-zsh
 !.zshrc
-!.config/awesome/rc.lua
+!.config
+!.config/
+!.config/awesome/
+!.config/awesome/*
