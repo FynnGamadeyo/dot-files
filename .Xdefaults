@@ -59,3 +59,5 @@ urxvt*scrollBar: false
 *color13:                 #6c71c4
 *color14:                 #93a1a1
 *color15:                 #fdf6e3
+
+URxvt*font: xft:Terminess Powerline:size=12
