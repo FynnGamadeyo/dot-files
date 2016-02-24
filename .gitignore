@@ -1,9 +1,12 @@
 *
+!.tmux.conf
 !.gitignore
 !.Xdefaults
 #!.oh-my-zsh
 !.zshrc
+!.bashrc
 !.config
 !.config/
 !.config/awesome/
 !.config/awesome/*
+
