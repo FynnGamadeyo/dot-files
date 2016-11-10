@@ -1,0 +1,66 @@
+let g:solarized_termcolors=256
+
+XTerm*background: #eeeeee
+!#cdcdcd
+XTerm*foreground: #343434
+
+! normal colours for terminal
+! grau für selectieren [select]
+XTerm*color0: #C0D6E4
+! zuweisung
+XTerm*color1: #3d8889
+XTerm*color2:  #956D9D
+!XTerm*color3: yellow3
+XTerm*color3: yellow2
+!XTerm*color4: blue4
+XTerm*color4: SteelBlue3
+XTerm*color5: magenta3
+XTerm*color6: cyan
+! schrift für selectieren [select]
+XTerm*color7: #3d8889
+
+! bold colours for terminal
+XTerm*color8: gray30
+XTerm*color9: red
+XTerm*color10:  #956D9D
+!XTerm*color11: yellow
+XTerm*color11: LightYellow2
+XTerm*color12: LightBlue
+XTerm*color13: magenta
+XTerm*color14: cyan
+XTerm*color15: blue
+
+XTerm*cursorColor: White
+XTerm*scrollBar: false
+XTerm*boldMode: false
+
+XTerm*selectToClipboard: true
+
+
+xterm*font: -xos4-terminus-medium-r-normal--20-200-72-72-c-100-iso10646-1
+xterm*faceName: DejaVu Sans Mono:style=Book:antialias=false
+xterm*faceNameDoublesize: WenQuanYi Bitmap Song
+xterm*faceSize: 12
+XTerm*renderFont: true
+
+XTerm*utf8            : 1
+XTerm*eightBitInput   : false
+XTerm*eightBitControl : false
+XTerm*eightBitOutput  : true
+
+xterm*termName: xterm-256color
+XTerm*locale: true
+XTerm*metaSendsEscape: true
+Xterm*saveLines: 4096
+XTerm*reverseVideo: on
+
+xterm*borderWidth: 0
+
+XTerm*VT100.*translations:      #override \
+      Shift Ctrl<Key>V: insert-selection(CLIPBOARD) \n\
+      Shift Ctrl<Key>V: insert-selection(PRIMARY) \n\
+      Shift<Btn1Down>: select-start() \n\
+      Shift<Btn1Motion>: select-extend() \n\
+      Shift<Btn1Up>: select-end(CLIPBOARD) 
+
+
